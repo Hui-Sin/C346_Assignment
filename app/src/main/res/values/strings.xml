@@ -1,5 +1,13 @@
 <resources>
     <string name="app_name">C346 Assignment</string>
+    <string name="intro">an app that allows the user to maintain a list of products and their warranty expiry date</string>
+    <string name="website">Website</string>
+    <string name="app">App</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="add">Add</string>
+    <string name="expires_yyyy_m_d_item">Expires YYYY-M-D Item</string>
+    <string name="item_index">Item Index</string>
     <string-array name="expiryMonth">
         <item>all time</item>
         <item>1 Month</item>

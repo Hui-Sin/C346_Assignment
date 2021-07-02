@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#03A9F4"
     android:orientation="vertical">
 
 
@@ -9,8 +12,18 @@
         android:id="@+id/introduction"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="3"
-        android:text="TextView" />
+        android:layout_weight="1"
+        android:text="@string/intro"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#000000"
+        app:srcCompat="@android:drawable/ic_menu_agenda" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,16 +33,20 @@
 
         <Button
             android:id="@+id/website"
+            style="@style/Widget.AppCompat.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Website" />
+            android:text="@string/website"
+            app:backgroundTint="#3F51B5" />
 
         <Button
             android:id="@+id/App"
+            style="@style/Widget.AppCompat.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="App" />
+            android:text="@string/app"
+            app:backgroundTint="#4CAF50" />
     </LinearLayout>
 </LinearLayout>

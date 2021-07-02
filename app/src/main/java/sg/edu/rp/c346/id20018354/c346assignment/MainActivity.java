@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         openWeb.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intentView = new Intent(Intent.ACTION_VIEW, Uri.parse(""));
+                Intent intentView = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Hui-Sin/C346_Assignment"));
                 startActivity(intentView);
             }
         });
