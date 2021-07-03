@@ -1,3 +1,5 @@
+//Lim Hui Sin
+//20018354
 package sg.edu.rp.c346.id20018354.c346assignment;
 
 import androidx.appcompat.app.AppCompatActivity;
